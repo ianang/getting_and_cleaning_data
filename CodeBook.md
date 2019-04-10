@@ -11,17 +11,21 @@ By combining "subject_test.txt", "y_test.txt" and "X_test.txt", one can get **pr
 ## Explaining each file
 
 features.txt : names of the 561 features
+
 activity_labels.txt : IDs and names for the 6 activities
 
 **For files below, each row will represent an observation per time window per subject per activity. Each observation should have a subject ID, an activity ID and values for 561 features.**
 
 X_train.txt : 7,352 observations of 561 features for 21 "train" volunteers
+
 X_test.txt : 2,947 observations of 561 features for 9 "test" volunteers
 
 subject_train.txt : IDs of 21 "train" volunteers for each of 7,352 observations
+
 subject_test.txt : IDs of 9 "test" volunteers for each of 2,947 observations
 
 y_train.txt : activity ID for each of 7,352 observations
+
 y_test.txt : activity ID for each of 2,947 observations
 
 **The analysis does not require the unprocessed raw data in the "Inertial Signals" folders.**
